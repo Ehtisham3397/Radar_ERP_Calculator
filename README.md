@@ -1,9 +1,9 @@
-# Radar ERP Calculator
+# 📡 Radar ERP Calculator
 
 A Windows-based application built with WPF (.NET) to calculate the Effective Radiated Power (ERP) and Antenna Gain for radar systems. It also calculates Jammer required power for a particular Radar at user defined distance. It also claculates Radar range based on target RCS. 
 This tool helps users input radar parameters and visualize the results in an intuitive interface.
 
-## Overview 
+## 🔎 Overview 
 The Radar ERP Calculator allows users to:
 
  - Input radar details such as name, peak power, operating frequency, antenna aperture, and efficiency.
@@ -30,18 +30,6 @@ This project is developed using XAML for the user interface and C# for the backe
 **Visual Studio 2019/2022** (for development and building the project).
 
 
-## 📋 Prerequisites
-
-To run this application locally, ensure you have the following:
-
-   - Python 3.8 or higher
-
-   - A Groq API key (set as ```Groq_API_Key``` in a ```.env``` file)
-
-   - A Google Cloud Translate API key (set as ```Google_API``` in a ```.env``` file)
-
-   - Required Python packages listed in ```requirements.txt```
-
 ## 🚀 Installation
 
 1. Clone the Repository:
@@ -66,7 +54,7 @@ To run this application locally, ensure you have the following:
  8. In third Tab you can again select previous stored Radar or can enter parameters for a new one to calculate Radar Range for a give target RCS.
 
 
-## Contributing
+## 📒 Contributing
 
 Contributions are welcome! To contribute:
 
@@ -78,20 +66,11 @@ Contributions are welcome! To contribute:
 
 Please ensure your code follows the existing style and includes appropriate comments.
 
-## ⚠️ Notes
-
-- Ensure your API keys are valid and have sufficient quotas for usage.
-
-- The app requires an internet connection for API calls.
-
-- For text-to-speech, supported file formats are TXT, PDF, and DOCX.
-
-- RTL languages (e.g., Urdu, Arabic) are displayed with proper formatting.
-
 ## 📧 Contact
 
 For questions or support, please open an issue on the GitHub repository or contact the maintainer at [muhammadehtishamali2@example.com].
 
-## 📜 License
+## 📜 Acknowledgments
+- Inspired by radar system design principles and ERP calculation methodologies.
 
-This project is licensed under the Apache-2.0 License. See the LICENSE file for details.
+- Built with the WPF framework for a robust desktop experience.
