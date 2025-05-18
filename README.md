@@ -3,6 +3,19 @@
 A Windows-based application built with WPF (.NET) to calculate the Effective Radiated Power (ERP) and Antenna Gain for radar systems. It also calculates Jammer required power for a particular Radar at user defined distance. It also claculates Radar range based on target RCS. 
 This tool helps users input radar parameters and visualize the results in an intuitive interface.
 
+## Overview 
+The Radar ERP Calculator allows users to:
+
+ - Input radar details such as name, peak power, operating frequency, antenna aperture, and efficiency.
+
+ - Compute Antenna Gain (dB) and Total ERP (dBm) based on the provided parameters.
+
+ - Display results in a table for easy reference and analysis.
+ - Compute Jammer power to effectively jam a Radar.
+ - Compute Jammer range based on target RCS.
+
+This project is developed using XAML for the user interface and C# for the backend logic.
+
 ## ✨ Features
  - Modern UI with customizable styles and themes.
 
