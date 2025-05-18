@@ -44,21 +44,17 @@ To run this application locally, ensure you have the following:
 
 ## 🚀 Installation
 
-#### 1. Clone the Repository
+1. Clone the Repository:
 
    ```
    git clone https://github.com/Ehtisham3397/Radar_ERP_Calculator.git
    ```
-
-#### 2. Install Requirements
    
-Create a virtual environment (optional but recommended) and install dependencies:
-
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
+2. Open the solution file ```(Radar_ERP_Calculator.sln)``` in Visual Studio.
+3. Restore NuGet packages if prompted.
+4. Build the solution (Build > Build Solution).
+5. Run the application (F5 or Debug > Start Debugging).
+   
 #### 3. Set Up Environment Variables
    
 Create a ```.env``` file in the root directory and add your API keys:
