@@ -7,9 +7,7 @@ This tool helps users input radar parameters and visualize the results in an int
 The Radar ERP Calculator allows users to:
 
  - Input radar details such as name, peak power, operating frequency, antenna aperture, and efficiency.
-
  - Compute Antenna Gain (dB) and Total ERP (dBm) based on the provided parameters.
-
  - Display results in a table for easy reference and analysis.
  - Compute Jammer power to effectively jam a Radar.
  - Compute Jammer range based on target RCS.
@@ -18,33 +16,19 @@ This project is developed using XAML for the user interface and C# for the backe
 
 ## ✨ Features
  - Modern UI with customizable styles and themes.
-
  - Real-time calculation of Antenna Gain and ERP.
-
  - Calculates Jammer required Power to Jam a particular Radar at defined Distance.
-
  - Calculates Jammer Range based on target RCS.
-
  - Data grid to store and review multiple radar parameter sets.
-
  - Input validation for numerical fields.
 
-## 🛠️ Technologies Used
-**Streamlit:** For building the interactive web interface.
+## 📋 Prerequisites
+**Windows OS** (Windows 10 or later recommended).
 
-**Groq API:** For generating educational and video scripts using AI.
+**.NET Framework 4.8** or later (or .NET Core 3.1+ depending on the build).
 
-**Google Cloud Translate API:** For translating scripts into multiple languages.
+**Visual Studio 2019/2022** (for development and building the project).
 
-**Wikipedia API:** For fetching factual content to base scripts on.
-
-**gTTS (Google Text-to-Speech):** For converting text to speech.
-
-**PyPDF2 & python-docx:** For extracting text from PDF and DOCX files.
-
-**Langdetect:** For automatic language detection in uploaded files.
-
-**Tempfile:** For handling temporary file storage for downloads.
 
 ## 📋 Prerequisites
 
