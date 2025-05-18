@@ -42,13 +42,12 @@ To run this application locally, ensure you have the following:
 
    - Required Python packages listed in ```requirements.txt```
 
-## 🚀 How to run the App Locally
+## 🚀 Installation
 
 #### 1. Clone the Repository
 
    ```
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Ehtisham3397/Radar_ERP_Calculator.git
    ```
 
 #### 2. Install Requirements
