@@ -55,54 +55,28 @@ To run this application locally, ensure you have the following:
 4. Build the solution (Build > Build Solution).
 5. Run the application (F5 or Debug > Start Debugging).
    
-#### 3. Set Up Environment Variables
-   
-Create a ```.env``` file in the root directory and add your API keys:
-
-   ```
-   Groq_API_Key=your_groq_api_key
-   Google_API=your_google_cloud_translate_api_key
-   ```
-#### 4. Run the App
-   
-Start the Streamlit app:
-
-   ```
-   streamlit run app.py
-   ```
-The app will be available at  ```http://localhost:8501``` in your browser.
-
 ## 📖 Usage
+ 1. Launch the application.
+ 2. Navigate to the "Radar ERP" tab.
+ 3. Enter the radar name, peak power (kW), operating frequency (GHz), antenna aperture, and efficiency.
+ 4. Click the "Calculate" button to compute and display the Antenna Gain and Total ERP.
+ 5. View the results in the data grid below.
+ 6. Use the "Delete" button (if visible) to clear the current data set.
+ 7. In second Tab you can select previous stored Radar or can enter Parameters for a new one and then calculate Required Power to Jam that Radar in SIJ/SOJ type jammer or SPJ type jammer.
+ 8. In third Tab you can again select previous stored Radar or can enter parameters for a new one to calculate Radar Range for a give target RCS.
 
-#### 1. Script Generator Tab:
 
-- Enter a topic (e.g., "Quantum Mechanics") and select a duration (1-30 minutes).
+## Contributing
 
-- Generate an educational script based on Wikipedia content.
+Contributions are welcome! To contribute:
 
-- Optionally, create a video script with scene descriptions.
+1. Fork the repository.
+2. Create a new branch ( ```git checkout -b feature-branch ```).
+3. Make your changes and commit them ( ```git commit -m "Description of changes" ```).
+4. Push to the branch ( ```git push origin feature-branch ```).
+5. Open a pull request.
 
-- Translate the script into a supported language (e.g., Urdu, Spanish).
-
-- Download scripts as text files.
-
-#### 2. Text-to-Speech Tab:
-
-- Upload a TXT, PDF, or DOCX file.
-
-- Convert the extracted text to speech with automatic language detection.
-
-- Listen to the audio directly or download it as an MP3 file.
-
-## 🌍 Supported Languages for Translation
-
-The app supports translation into the following languages:
-
-- Urdu, Punjabi, Pashto, Sindhi, Hindi, Arabic, Tamil, Telugu
-
-- Chinese (Simplified & Traditional), Turkish, French, Spanish
-
-- German, Italian, Russian, Japanese
+Please ensure your code follows the existing style and includes appropriate comments.
 
 ## ⚠️ Notes
 
@@ -116,7 +90,7 @@ The app supports translation into the following languages:
 
 ## 📧 Contact
 
-For questions or feedback, please open an issue on GitHub or contact [muhammadehtishamali2@example.com].
+For questions or support, please open an issue on the GitHub repository or contact the maintainer at [muhammadehtishamali2@example.com].
 
 ## 📜 License
 
